@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/kajianfragment"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="kajian" />
+    <item
+        android:id="@+id/targetfragment"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="target" />
+    <item
+        android:id="@+id/alquranfragment2"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Bersama Al-quran" />
+
+</menu>
