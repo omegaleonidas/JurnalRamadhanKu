@@ -13,13 +13,13 @@
     <fragment
         android:id="@+id/targetfragment"
         android:name="com.example.jurnalramadhanku.View.Home.TargetFragment"
-        android:label="fragment_target"
+        android:label="Target Ramadhan"
         tools:layout="@layout/fragment_target" />
     <fragment
         android:id="@+id/kajianfragment"
         android:name="com.example.jurnalramadhanku.View.Home.KajianFragment"
-        android:label="fragment_kajian"
-        tools:layout="@layout/fragment_kajian" >
+        android:label="kajian"
+        tools:layout="@layout/fragment_kajian">
         <action
             android:id="@+id/action_kajianfragment_to_mainActivity"
             app:destination="@id/mainActivity" />
@@ -27,6 +27,6 @@
     <fragment
         android:id="@+id/alquranfragment2"
         android:name="com.example.jurnalramadhanku.View.Home.AlquranFragment"
-        android:label="fragment_alquran"
+        android:label="Bersama Al-qur'an"
         tools:layout="@layout/fragment_alquran" />
 </navigation>
